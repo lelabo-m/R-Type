@@ -1,0 +1,16 @@
+﻿Build started 03/04/2015 20:08:35.
+     1>Project "C:\Users\Christopher\Desktop\R-Type\Server\Build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake is re-running because C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build/CMakeFiles/generate.stamp is out-of-date.
+           the file 'C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/CMakeLists.txt'
+           is newer than 'C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build/CMakeFiles/generate.stamp.depend'
+           result='-1'
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build
+     1>Done Building Project "C:\Users\Christopher\Desktop\R-Type\Server\Build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65

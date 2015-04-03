@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A6D44DBD-62E7-4AD9-9ECF-2416A419A2D8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>moskito</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">moskito.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">moskito</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">moskito.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">moskito</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">moskito.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">moskito</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">moskito.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">moskito</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR=\"Debug\";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/Moskito/Debug/moskito.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/Moskito/Debug/moskito.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Release";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/Moskito/Release/moskito.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/Moskito/Release/moskito.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/Moskito/MinSizeRel/moskito.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/Moskito/MinSizeRel/moskito.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";moskito_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\.\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Server\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\..\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\..\PlayerShip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/Moskito/RelWithDebInfo/moskito.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/Moskito/RelWithDebInfo/moskito.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin" "-BC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build" --check-stamp-file "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin" "-BC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build" --check-stamp-file "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin" "-BC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build" --check-stamp-file "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin" "-BC:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build" --check-stamp-file "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Moskito/CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\Moskito\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\Sources\Moskito.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\GameMessage.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Vector2D.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Level.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\XML_Level.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\tinyxml2.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameContainer.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameObject.cpp"  />
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\Monster.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/ZERO_CHECK.vcxproj">
+      <Project>57F503CC-14E5-43B6-A281-A29319C30DE1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

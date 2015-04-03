@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\ServerHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\GameSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\Interrupt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\GamePackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\CommandLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\TCPHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\Scores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\Sources\PluginStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\UDPSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\NetUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\Session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\SessionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\UDPFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\UDPHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\UDPManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\UDPManagerClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPManagerServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPManagerClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPMessageFactoryServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\TCPMessageFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\NetClientManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\NetClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\NetServerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\NetServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\GameMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\Monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\PlayerShip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\XML_Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\LibManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\LibLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\ResourcesPackageServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\ResourcesPackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A173F0D-D7BF-4BB9-A51D-15268062B913}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿Build started 04/01/2015 15:36:49.
+     1>Project "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\PlayerShip\playership.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/PlayerShip/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\PlayerShip\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\." /I"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\..\..\GamePlay\Headers" /I"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\..\..\Common\Header" /I"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\..\..\Server\Includes" /I"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\..\..\Network\Headers" /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D playership_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"playership.dir\Debug\\" /Fd"playership.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\PlayerShip\PlayerShip.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources\GameMessage.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Vector2D.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\Level.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\XML_Level.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source\tinyxml2.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameContainer.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\GameObject.cpp" "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Sources\Monster.cpp"
+         PlayerShip.cpp
+         GameMessage.cpp
+         Vector2D.cpp
+         Level.cpp
+         XML_Level.cpp
+         tinyxml2.cpp
+         GameContainer.cpp
+         GameObject.cpp
+         Monster.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\PlayerShip\Debug\playership.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/PlayerShip/Debug/playership.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/PlayerShip/Debug/playership.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL playership.dir\Debug\PlayerShip.obj
+         playership.dir\Debug\GameMessage.obj
+         playership.dir\Debug\Vector2D.obj
+         playership.dir\Debug\Level.obj
+         playership.dir\Debug\XML_Level.obj
+         playership.dir\Debug\tinyxml2.obj
+         playership.dir\Debug\GameContainer.obj
+         playership.dir\Debug\GameObject.obj
+         playership.dir\Debug\Monster.obj
+            Creating library C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/PlayerShip/Debug/playership.lib and object C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/=plugin/PlayerShip/Debug/playership.exp
+         playership.vcxproj -> C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\PlayerShip\Debug\playership.dll
+     1>Done Building Project "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Build\PlayerShip\playership.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.64

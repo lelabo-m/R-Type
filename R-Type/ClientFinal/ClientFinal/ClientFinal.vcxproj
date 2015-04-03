@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A583741E-DBC3-4A41-8931-471671EADDD8}</ProjectGuid>
+    <RootNamespace>ClientFinal</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Header;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <SourcePath>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Sources;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Sources;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Source;$(SourcePath)</SourcePath>
+    <LibraryPath>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\Common\Header;..\..\ClientFinal\ClientFinal;..\..\Network\Headers;..\..\menuRtype\Includes\Singletons;..\..\menuRtype\Includes\SFMLshapes;..\..\menuRtype\Includes\SFMLmenus;..\..\menuRtype\Includes\SFMLevents;..\..\menuRtype\Includes\SFML;..\..\menuRtype\Includes\Audio;..\..\menuRtype\Includes</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\menuRtype\Libs</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-window-s.lib;sfml-window-s-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;sfml-graphics-s.lib;sfml-graphics-s-d.lib;sfml-main.lib;sfml-main-d.lib;sfml-audio-d.lib;sfml-audio-s.lib;sfml-audio-s-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Network\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\GamePlay\Headers;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Common\Header;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML\Audio;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML\Graphics;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML\Network;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML\System;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFML\Window;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\ClientFinal\ClientFinal;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFMLevents;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFMLmenus;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\SFMLshapes;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\Singletons;C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Includes\Audio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-window-s.lib;sfml-window-s-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;sfml-graphics-s.lib;sfml-graphics-s-d.lib;sfml-main.lib;sfml-main-d.lib;sfml-audio-d.lib;sfml-audio-s.lib;sfml-audio-s-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\menuRtype\Libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <PreventDllBinding>
+      </PreventDllBinding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Source\Level.cpp" />
+    <ClCompile Include="..\..\Common\Source\LibLoader.cpp" />
+    <ClCompile Include="..\..\Common\Source\LibManager.cpp" />
+    <ClCompile Include="..\..\Common\Source\ResourcesPackage.cpp" />
+    <ClCompile Include="..\..\Common\Source\ResourcesPackageClient.cpp" />
+    <ClCompile Include="..\..\Common\Source\ResourcesPackageServer.cpp" />
+    <ClCompile Include="..\..\Common\Source\tinyxml2.cpp" />
+    <ClCompile Include="..\..\Common\Source\Vector2D.cpp" />
+    <ClCompile Include="..\..\Common\Source\XML_Level.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Audio\Playlist.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Audio\Sound.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\EditorEventManager.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\EventManager.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\SFMLbuttonevents.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\SFMLinputevents.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLbaseEditor.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLbasePopUp.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLeditor.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlauncherMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlengthlevelPopUp.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlevelscoreMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmainMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmapscoreSelectorMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultimapSelectorMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultiMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultiplayerLobbyMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLoptionMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLplaymapSelectorMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLplayMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLsolomapSelectorMenu.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLanimatedSprite.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicInput.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicSlider.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicText.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbigButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbutton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbuttonLauncher.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLcharacterInput.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLdropdown.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLdropdownMultiplayer.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLeditormenuButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLinput.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLinputLauncher.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLlittleButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmapselectorButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmonsterButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmonsterDnD.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmultigameButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLobjDragAndDrop.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLplayermulti.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLshape.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLslider.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLsubmenuButton.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLunrotateDropdown.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\databaseSFML.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\gameOptions.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\menuManager.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\windowSFML.cpp" />
+    <ClCompile Include="..\..\menuRtype\Sources\Timer.cpp" />
+    <ClCompile Include="..\..\Network\Sources\FileManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\GameMessage.cpp" />
+    <ClCompile Include="..\..\Network\Sources\NetClient.cpp" />
+    <ClCompile Include="..\..\Network\Sources\NetClientManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\NetServer.cpp" />
+    <ClCompile Include="..\..\Network\Sources\NetServerManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\NetUser.cpp" />
+    <ClCompile Include="..\..\Network\Sources\ObjectRepresentation.cpp" />
+    <ClCompile Include="..\..\Network\Sources\PlayerAction.cpp" />
+    <ClCompile Include="..\..\Network\Sources\Session.cpp" />
+    <ClCompile Include="..\..\Network\Sources\SessionManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPFrame.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPHeader.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPManagerClient.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPManagerServer.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactory.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactoryClient.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactoryServer.cpp" />
+    <ClCompile Include="..\..\Network\Sources\TCPSocket.cpp" />
+    <ClCompile Include="..\..\Network\Sources\UDPFrame.cpp" />
+    <ClCompile Include="..\..\Network\Sources\UDPHeader.cpp" />
+    <ClCompile Include="..\..\Network\Sources\UDPManager.cpp" />
+    <ClCompile Include="..\..\Network\Sources\UDPManagerClient.cpp" />
+    <ClCompile Include="..\..\Network\Sources\UDPSocket.cpp" />
+    <ClCompile Include="BackgroundAnimation.cpp" />
+    <ClCompile Include="ClientManager.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameEventManager.cpp" />
+    <ClCompile Include="GamePadController.cpp" />
+    <ClCompile Include="GameSession.cpp" />
+    <ClCompile Include="GraphicalElem.cpp" />
+    <ClCompile Include="InputPopupValue.cpp" />
+    <ClCompile Include="KeyBoardController.cpp" />
+    <ClCompile Include="Lobby.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapDownloader.cpp" />
+    <ClCompile Include="MapSelected.cpp" />
+    <ClCompile Include="RTypeGame.cpp" />
+    <ClCompile Include="SFMLchatText.cpp" />
+    <ClCompile Include="SFMLendingGamePopUp.cpp" />
+    <ClCompile Include="SFMLloadingGamePopUp.cpp" />
+    <ClCompile Include="SFMLobjRepresentation.cpp" />
+    <ClCompile Include="SFMLpausePopUp.cpp" />
+    <ClCompile Include="SFMLscore.cpp" />
+    <ClCompile Include="SFMLstartEditorPopUp.cpp" />
+    <ClCompile Include="TickTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Header\Factory.hpp" />
+    <ClInclude Include="..\..\Common\Header\FileSystem.hpp" />
+    <ClInclude Include="..\..\Common\Header\GameAction.hh" />
+    <ClInclude Include="..\..\Common\Header\Level.hh" />
+    <ClInclude Include="..\..\Common\Header\LibLoader.h" />
+    <ClInclude Include="..\..\Common\Header\LibManager.h" />
+    <ClInclude Include="..\..\Common\Header\MemoryPool.hpp" />
+    <ClInclude Include="..\..\Common\Header\Observer.hpp" />
+    <ClInclude Include="..\..\Common\Header\ResourcesPackage.h" />
+    <ClInclude Include="..\..\Common\Header\ResourcesPackageClient.h" />
+    <ClInclude Include="..\..\Common\Header\ResourcesPackageServer.h" />
+    <ClInclude Include="..\..\Common\Header\Singleton.hpp" />
+    <ClInclude Include="..\..\Common\Header\tinyxml2.h" />
+    <ClInclude Include="..\..\Common\Header\Vector2D.h" />
+    <ClInclude Include="..\..\Common\Header\XML_Level.hh" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_codec.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_dsp.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_errors.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_memoryinfo.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\Playlist.hh" />
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\Sound.hh" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\EditorEventManager.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\EventManager.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\IEventManager.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\SFMLbuttonevents.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\SFMLinputevents.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\ISFMLmenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLbaseEditor.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLbasePopUp.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLeditor.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlauncherMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlengthlevelPopUp.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlevelscoreMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmainMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmapscoreSelectorMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultimapSelectorMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultiMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultiplayerLobbyMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLoptionMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLplaymapSelectorMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLplayMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLsolomapSelectorMenu.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLanimatedSprite.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicInput.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicSlider.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicText.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbigButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbutton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbuttonLauncher.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLcharacterInput.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLdropdown.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLdropdownMultiplayer.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLeditormenuButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLinput.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLinputLauncher.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLlittleButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmapselectorButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmonsterButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmonsterDnD.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmultigameButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLobjDragAndDrop.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLplayermulti.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLshape.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLslider.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLsubmenuButton.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLunrotateDropdown.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Config.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\BlendMode.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\CircleShape.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\ConvexShape.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Drawable.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Export.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Font.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Glyph.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Image.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RectangleShape.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderStates.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderTarget.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderTexture.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderWindow.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Shader.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Shape.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Sprite.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Text.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Texture.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Transform.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Transformable.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Vertex.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\VertexArray.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\View.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Export.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Ftp.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Http.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\IpAddress.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Packet.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Socket.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\SocketHandle.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\SocketSelector.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\TcpListener.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\TcpSocket.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\UdpSocket.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\OpenGL.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Clock.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Err.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Export.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\InputStream.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Lock.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Mutex.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Sleep.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\String.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Thread.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Time.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Utf.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Vector2.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Vector3.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Context.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Event.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Export.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Joystick.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Keyboard.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Mouse.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Window.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\WindowHandle.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\databaseSFML.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\gameOptions.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\menuManager.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\windowSFML.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\stdafx.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\targetver.h" />
+    <ClInclude Include="..\..\menuRtype\Includes\Timer.h" />
+    <ClInclude Include="..\..\Network\Headers\FileManager.h" />
+    <ClInclude Include="..\..\Network\Headers\GameMessage.h" />
+    <ClInclude Include="..\..\Network\Headers\GameMessageDispacher.hpp" />
+    <ClInclude Include="..\..\Network\Headers\NetClient.h" />
+    <ClInclude Include="..\..\Network\Headers\NetClientManager.h" />
+    <ClInclude Include="..\..\Network\Headers\NetUser.h" />
+    <ClInclude Include="..\..\Network\Headers\ObjectRepresentation.h" />
+    <ClInclude Include="..\..\Network\Headers\PlayerAction.h" />
+    <ClInclude Include="..\..\Network\Headers\Session.h" />
+    <ClInclude Include="..\..\Network\Headers\SessionManager.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPFrame.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPHeader.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPManager.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPManagerClient.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPManagerServer.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactory.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactoryClient.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactoryServer.h" />
+    <ClInclude Include="..\..\Network\Headers\TCPSocket.h" />
+    <ClInclude Include="..\..\Network\Headers\UDPFrame.h" />
+    <ClInclude Include="..\..\Network\Headers\UDPHeader.h" />
+    <ClInclude Include="..\..\Network\Headers\UDPManager.h" />
+    <ClInclude Include="..\..\Network\Headers\UDPManagerClient.h" />
+    <ClInclude Include="..\..\Network\Headers\UDPSocket.h" />
+    <ClInclude Include="..\..\Network\Headers\Values.h" />
+    <ClInclude Include="BackgroundAnimation.h" />
+    <ClInclude Include="ClientManager.h" />
+    <ClInclude Include="Controller.hpp" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameEventManager.h" />
+    <ClInclude Include="GameSession.h" />
+    <ClInclude Include="GraphicalElem.h" />
+    <ClInclude Include="InputPopupValue.h" />
+    <ClInclude Include="InputPopValue.h" />
+    <ClInclude Include="Lobby.h" />
+    <ClInclude Include="MapDownloader.h" />
+    <ClInclude Include="MapSelected.h" />
+    <ClInclude Include="RTypeGame.h" />
+    <ClInclude Include="SFMLchatText.h" />
+    <ClInclude Include="SFMLendingGamePopUp.h" />
+    <ClInclude Include="SFMLloadingGamePopUp.h" />
+    <ClInclude Include="SFMLobjRepresentation.h" />
+    <ClInclude Include="SFMLpausePopUp.h" />
+    <ClInclude Include="SFMLscore.h" />
+    <ClInclude Include="SFMLstartEditorPopUp.h" />
+    <ClInclude Include="TickTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\menuRtype\Includes\SFML\Graphics\Rect.inl" />
+    <None Include="..\..\menuRtype\Includes\SFML\System\Thread.inl" />
+    <None Include="..\..\menuRtype\Includes\SFML\System\ThreadLocalPtr.inl" />
+    <None Include="..\..\menuRtype\Includes\SFML\System\Utf.inl" />
+    <None Include="..\..\menuRtype\Includes\SFML\System\Vector2.inl" />
+    <None Include="..\..\menuRtype\Includes\SFML\System\Vector3.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

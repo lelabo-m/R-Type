@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D634985B-E5B4-4800-A5E0-54F674209BCE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PlayerShip</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\..\..\=plugin\PlayerShip\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PLAYERSHIP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\Common\Header;..\..\..\GamePlay\Headers;..\..\..\Server\Includes;..\..\..\Network\Headers;..</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PLAYERSHIP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Common\Header\Factory.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\FileSystem.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\GameAction.hh" />
+    <ClInclude Include="..\..\..\Common\Header\LibLoader.h" />
+    <ClInclude Include="..\..\..\Common\Header\LibManager.h" />
+    <ClInclude Include="..\..\..\Common\Header\MemoryPool.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\ObjectRepresentation.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\Observer.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\Plugin.h" />
+    <ClInclude Include="..\..\..\Common\Header\Singleton.hpp" />
+    <ClInclude Include="..\..\..\Common\Header\Vector2D.h" />
+    <ClInclude Include="..\..\..\GamePlay\Headers\GameContainer.h" />
+    <ClInclude Include="..\..\..\GamePlay\Headers\GameObject.h" />
+    <ClInclude Include="..\..\..\GamePlay\Headers\Monster.h" />
+    <ClInclude Include="..\..\..\Network\Headers\FileManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\GameMessage.h" />
+    <ClInclude Include="..\..\..\Network\Headers\GameMessageDispacher.hpp" />
+    <ClInclude Include="..\..\..\Network\Headers\NetClient.h" />
+    <ClInclude Include="..\..\..\Network\Headers\NetClientManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\NetServer.h" />
+    <ClInclude Include="..\..\..\Network\Headers\NetServerManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\NetUser.h" />
+    <ClInclude Include="..\..\..\Network\Headers\ObjectRepresentation.h" />
+    <ClInclude Include="..\..\..\Network\Headers\PlayerAction.h" />
+    <ClInclude Include="..\..\..\Network\Headers\Session.h" />
+    <ClInclude Include="..\..\..\Network\Headers\SessionManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPFrame.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPHeader.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPManagerClient.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPManagerServer.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPMessageFactory.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPMessageFactoryClient.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPMessageFactoryServer.h" />
+    <ClInclude Include="..\..\..\Network\Headers\TCPSocket.h" />
+    <ClInclude Include="..\..\..\Network\Headers\UDPFrame.h" />
+    <ClInclude Include="..\..\..\Network\Headers\UDPHeader.h" />
+    <ClInclude Include="..\..\..\Network\Headers\UDPManager.h" />
+    <ClInclude Include="..\..\..\Network\Headers\UDPManagerClient.h" />
+    <ClInclude Include="..\..\..\Network\Headers\UDPSocket.h" />
+    <ClInclude Include="..\..\..\Network\Headers\Values.h" />
+    <ClInclude Include="..\..\..\Server\Includes\Client.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\CommandLine.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\GamePackage.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\GameSession.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\Interrupt.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\IPlayer.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\Player.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\Scores.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\Server.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\TCPHandler.hh" />
+    <ClInclude Include="..\..\..\Server\Includes\Utilities.hpp" />
+    <ClInclude Include="..\PlayerShip.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Common\Source\Level.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\LibLoader.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\LibManager.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\ResourcesPackage.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\ResourcesPackageClient.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\ResourcesPackageServer.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\Vector2D.cpp" />
+    <ClCompile Include="..\..\..\Common\Source\XML_Level.cpp" />
+    <ClCompile Include="..\..\..\GamePlay\Sources\GameContainer.cpp" />
+    <ClCompile Include="..\..\..\GamePlay\Sources\GameObject.cpp" />
+    <ClCompile Include="..\..\..\GamePlay\Sources\Monster.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\FileManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\GameMessage.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\NetClient.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\NetClientManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\NetServer.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\NetServerManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\NetUser.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\ObjectRepresentation.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\PlayerAction.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\Session.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\SessionManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPFrame.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPHeader.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPManagerClient.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPManagerServer.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPMessageFactory.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPMessageFactoryClient.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPMessageFactoryServer.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\TCPSocket.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\UDPFrame.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\UDPHeader.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\UDPManager.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\UDPManagerClient.cpp" />
+    <ClCompile Include="..\..\..\Network\Sources\UDPSocket.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\Client.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\CommandLine.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\GamePackage.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\GameSession.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\Interrupt.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\Player.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\PluginStorage.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\Scores.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\Server.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\ServerHandlers.cpp" />
+    <ClCompile Include="..\..\..\Server\Sources\TCPHandler.cpp" />
+    <ClCompile Include="..\PlayerShip.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

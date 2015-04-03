@@ -1,0 +1,26 @@
+<header>
+    <builder>thomas_1</builder>
+    <buildTime>1419176376</buildTime>
+    <version>000.000.000</version>
+</header>
+
+<referenceIndex/>
+
+<content>
+    <obj name="Moskito" posX="1185" posY="82" time="0"/>
+    <obj name="Moskito" posX="1185" posY="182" time="0"/>
+    <obj name="Moskito" posX="1185" posY="282" time="0"/>
+    <obj name="Moskito" posX="1185" posY="382" time="1891"/>
+    <obj name="Moskito" posX="1185" posY="482" time="2011"/>
+    <obj name="Moskito" posX="1185" posY="582" time="2141"/>
+    <obj name="Moskito" posX="1185" posY="682" time="2291"/>
+    <obj name="Moskito" posX="1185" posY="782" time="2421"/>
+    <obj name="Moskito" posX="1185" posY="82" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="182" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="282" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="382" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="482" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="582" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="682" time="27600"/>
+    <obj name="Moskito" posX="1185" posY="782" time="27600"/>
+</content>

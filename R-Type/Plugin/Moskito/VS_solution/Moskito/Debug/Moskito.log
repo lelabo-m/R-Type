@@ -1,0 +1,94 @@
+﻿La génération a démarré 07/01/2015 13:15:36.
+     1>Projet "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Moskito\Moskito.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Plugin /I..\..\..\..\GamePlay\Headers /I..\..\..\..\Common\Header /I..\..\..\..\Server\Includes /I..\..\..\..\Network\Headers /I..\..\..\..\Plugin\PlayerShip /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MOSKITO_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Common\Source\Level.cpp ..\..\..\..\Common\Source\LibLoader.cpp ..\..\..\..\Common\Source\LibManager.cpp ..\..\..\..\Common\Source\ResourcesPackage.cpp ..\..\..\..\Common\Source\ResourcesPackageClient.cpp ..\..\..\..\Common\Source\ResourcesPackageServer.cpp ..\..\..\..\Common\Source\tinyxml2.cpp ..\..\..\..\Common\Source\Vector2D.cpp ..\..\..\..\Common\Source\XML_Level.cpp ..\..\..\..\GamePlay\Sources\GameContainer.cpp ..\..\..\..\GamePlay\Sources\GameObject.cpp ..\..\..\..\GamePlay\Sources\Monster.cpp ..\..\..\..\Network\Sources\FileManager.cpp ..\..\..\..\Network\Sources\GameMessage.cpp ..\..\..\..\Network\Sources\NetClient.cpp ..\..\..\..\Network\Sources\NetClientManager.cpp ..\..\..\..\Network\Sources\NetServer.cpp ..\..\..\..\Network\Sources\NetServerManager.cpp ..\..\..\..\Network\Sources\NetUser.cpp ..\..\..\..\Network\Sources\ObjectRepresentation.cpp ..\..\..\..\Network\Sources\PlayerAction.cpp ..\..\..\..\Network\Sources\Session.cpp ..\..\..\..\Network\Sources\SessionManager.cpp ..\..\..\..\Network\Sources\TCPFrame.cpp ..\..\..\..\Network\Sources\TCPHeader.cpp ..\..\..\..\Network\Sources\TCPManager.cpp ..\..\..\..\Network\Sources\TCPManagerClient.cpp ..\..\..\..\Network\Sources\TCPManagerServer.cpp ..\..\..\..\Network\Sources\TCPMessageFactory.cpp ..\..\..\..\Network\Sources\TCPMessageFactoryClient.cpp ..\..\..\..\Network\Sources\TCPMessageFactoryServer.cpp ..\..\..\..\Network\Sources\TCPSocket.cpp ..\..\..\..\Network\Sources\UDPFrame.cpp ..\..\..\..\Network\Sources\UDPHeader.cpp ..\..\..\..\Network\Sources\UDPManager.cpp ..\..\..\..\Network\Sources\UDPManagerClient.cpp ..\..\..\..\Network\Sources\UDPSocket.cpp ..\..\Sources\Moskito.cpp
+         Moskito.cpp
+         UDPSocket.cpp
+         UDPManagerClient.cpp
+         UDPManager.cpp
+         UDPHeader.cpp
+         UDPFrame.cpp
+         TCPSocket.cpp
+         TCPMessageFactoryServer.cpp
+         TCPMessageFactoryClient.cpp
+         TCPMessageFactory.cpp
+     1>c:\users\christopher\documents\visual studio 2013\projects\tfs\r-type\network\sources\tcpmessagefactory.cpp(54): warning C4996: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(1798) : voir la déclaration de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy'
+         TCPManagerServer.cpp
+         TCPManagerClient.cpp
+         TCPManager.cpp
+     1>c:\users\christopher\documents\visual studio 2013\projects\tfs\r-type\network\sources\tcpmanager.cpp(132): warning C4018: '>' : incompatibilité signed/unsigned
+         TCPHeader.cpp
+         TCPFrame.cpp
+         SessionManager.cpp
+         Session.cpp
+         PlayerAction.cpp
+         ObjectRepresentation.cpp
+         NetUser.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         NetServerManager.cpp
+         NetServer.cpp
+         NetClientManager.cpp
+         NetClient.cpp
+         GameMessage.cpp
+         FileManager.cpp
+         Monster.cpp
+         GameObject.cpp
+         GameContainer.cpp
+         XML_Level.cpp
+         Vector2D.cpp
+         tinyxml2.cpp
+         ResourcesPackageServer.cpp
+         ResourcesPackageClient.cpp
+         ResourcesPackage.cpp
+         LibManager.cpp
+         LibLoader.cpp
+         Level.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.lib" /MACHINE:X86 /DLL Debug\Level.obj
+         Debug\LibLoader.obj
+         Debug\LibManager.obj
+         Debug\ResourcesPackage.obj
+         Debug\ResourcesPackageClient.obj
+         Debug\ResourcesPackageServer.obj
+         Debug\tinyxml2.obj
+         Debug\Vector2D.obj
+         Debug\XML_Level.obj
+         Debug\GameContainer.obj
+         Debug\GameObject.obj
+         Debug\Monster.obj
+         Debug\FileManager.obj
+         Debug\GameMessage.obj
+         Debug\NetClient.obj
+         Debug\NetClientManager.obj
+         Debug\NetServer.obj
+         Debug\NetServerManager.obj
+         Debug\NetUser.obj
+         Debug\ObjectRepresentation.obj
+         Debug\PlayerAction.obj
+         Debug\Session.obj
+         Debug\SessionManager.obj
+         Debug\TCPFrame.obj
+         Debug\TCPHeader.obj
+         Debug\TCPManager.obj
+         Debug\TCPManagerClient.obj
+         Debug\TCPManagerServer.obj
+         Debug\TCPMessageFactory.obj
+         Debug\TCPMessageFactoryClient.obj
+         Debug\TCPMessageFactoryServer.obj
+         Debug\TCPSocket.obj
+         Debug\UDPFrame.obj
+         Debug\UDPHeader.obj
+         Debug\UDPManager.obj
+         Debug\UDPManagerClient.obj
+         Debug\UDPSocket.obj
+         Debug\Moskito.obj
+            Création de la bibliothèque C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.lib et de l'objet C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.exp
+         Moskito.vcxproj -> C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Debug\..\..\..\=plugin\Moskito\Moskito.dll
+     1>Génération du projet "C:\Users\Christopher\Documents\Visual Studio 2013\Projects\TFS\R-Type\Plugin\Moskito\VS_solution\Moskito\Moskito.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:29.80

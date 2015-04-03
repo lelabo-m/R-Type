@@ -1,0 +1,3 @@
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Server/Build/CMakeFiles/rtype_server.dir

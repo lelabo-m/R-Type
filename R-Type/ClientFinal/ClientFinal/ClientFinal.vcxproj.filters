@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{1fc4b4b2-b000-40d7-bf7e-c788a2bcadf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{fd8c23fd-491f-43ee-90d7-5b75d4adc2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{2c28f425-d598-40c1-badf-23e167fd8937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{8be27247-ed6e-4c9f-ad85-89eadaef6fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SFMLmenu">
+      <UniqueIdentifier>{44a40b6d-5e34-4e0e-874d-d6b715647446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SFMLmenu">
+      <UniqueIdentifier>{9df835fb-8820-485a-ba02-8e583382d00a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\NetClient.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\NetClientManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\NetServer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\NetServerManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\NetUser.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\Session.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\SessionManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPFrame.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPHeader.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPManagerClient.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactory.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactoryClient.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPSocket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\UDPFrame.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\UDPHeader.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\UDPManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\UDPManagerClient.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\UDPSocket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\LibLoader.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\LibManager.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\Vector2D.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPManagerServer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalElem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoardController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\ObjectRepresentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\ResourcesPackage.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\ResourcesPackageServer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\TCPMessageFactoryServer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\ResourcesPackageClient.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Audio\Playlist.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Audio\Sound.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\EditorEventManager.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\EventManager.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\SFMLbuttonevents.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLevents\SFMLinputevents.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLbaseEditor.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLbasePopUp.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLeditor.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlauncherMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlengthlevelPopUp.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLlevelscoreMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmainMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmapscoreSelectorMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultimapSelectorMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultiMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLoptionMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLplaymapSelectorMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLplayMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLsolomapSelectorMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLanimatedSprite.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicInput.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicSlider.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbasicText.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbigButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbutton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLbuttonLauncher.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLcharacterInput.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLdropdown.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLdropdownMultiplayer.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLeditormenuButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLinput.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLinputLauncher.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLlittleButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmapselectorButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmonsterButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmonsterDnD.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLmultigameButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLobjDragAndDrop.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLplayermulti.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLshape.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLslider.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLsubmenuButton.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\databaseSFML.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\gameOptions.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\windowSFML.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Timer.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TickTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLmenus\SFMLmultiplayerLobbyMenu.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\SFMLshapes\SFMLunrotateDropdown.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLchatText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLstartEditorPopUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePadController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDownloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\Level.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\XML_Level.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Source\tinyxml2.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\FileManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLloadingGamePopUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\menuRtype\Sources\Singletons\menuManager.cpp">
+      <Filter>Source Files\SFMLmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSelected.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPopupValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTypeGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLpausePopUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLscore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLobjRepresentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\PlayerAction.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Network\Sources\GameMessage.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLendingGamePopUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Network\Headers\FileManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\NetClient.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\NetClientManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\NetUser.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\Session.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\SessionManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPFrame.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPHeader.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPManagerClient.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactory.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactoryClient.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPSocket.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\UDPFrame.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\UDPHeader.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\UDPManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\UDPManagerClient.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\UDPSocket.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\Values.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\Factory.hpp">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\FileSystem.hpp">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\LibLoader.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\LibManager.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\MemoryPool.hpp">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\Observer.hpp">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\Vector2D.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPManagerServer.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\Singleton.hpp">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalElem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\ObjectRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\ResourcesPackage.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\TCPMessageFactoryServer.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\ResourcesPackageClient.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\ResourcesPackageServer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_codec.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_dsp.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_errors.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\fmod_memoryinfo.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\Playlist.hh">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Audio\Sound.hh">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Export.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Listener.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Music.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\Sound.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundSource.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio\SoundStream.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Audio.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Config.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\BlendMode.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\CircleShape.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Color.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Drawable.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Export.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Font.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Glyph.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Image.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Rect.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderStates.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Shader.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Shape.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Sprite.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Text.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Texture.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Transform.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Transformable.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\Vertex.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\VertexArray.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics\View.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Graphics.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Export.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Ftp.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Http.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\IpAddress.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Packet.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\Socket.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\SocketHandle.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\SocketSelector.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\TcpListener.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\TcpSocket.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network\UdpSocket.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Network.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\OpenGL.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Clock.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Err.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Export.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\InputStream.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Lock.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Mutex.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\NonCopyable.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Sleep.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\String.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Thread.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\ThreadLocal.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Time.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Utf.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Vector2.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System\Vector3.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\System.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Context.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\ContextSettings.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Event.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Export.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\GlResource.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Joystick.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Keyboard.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Mouse.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\VideoMode.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\Window.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\WindowHandle.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window\WindowStyle.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFML\Window.hpp">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\EditorEventManager.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\EventManager.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\IEventManager.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\SFMLbuttonevents.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLevents\SFMLinputevents.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\ISFMLmenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLbaseEditor.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLbasePopUp.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLeditor.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlauncherMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlengthlevelPopUp.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLlevelscoreMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmainMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmapscoreSelectorMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultimapSelectorMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultiMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLmultiplayerLobbyMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLoptionMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLplaymapSelectorMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLplayMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLmenus\SFMLsolomapSelectorMenu.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLanimatedSprite.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicInput.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicSlider.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbasicText.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbigButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbutton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLbuttonLauncher.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLcharacterInput.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLdropdown.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLdropdownMultiplayer.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLeditormenuButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLinput.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLinputLauncher.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLlittleButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmapselectorButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmonsterButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmonsterDnD.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLmultigameButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLobjDragAndDrop.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLplayermulti.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLshape.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLslider.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLsubmenuButton.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\SFMLshapes\SFMLunrotateDropdown.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\databaseSFML.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\gameOptions.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\windowSFML.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\stdafx.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\targetver.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Timer.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLchatText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLstartEditorPopUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDownloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\Level.hh">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\XML_Level.hh">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\tinyxml2.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLloadingGamePopUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\menuRtype\Includes\Singletons\menuManager.h">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSelected.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPopValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPopupValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTypeGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLpausePopUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\GameMessageDispacher.hpp">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLscore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLobjRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Header\GameAction.hh">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\PlayerAction.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Network\Headers\GameMessage.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLendingGamePopUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\menuRtype\Includes\SFML\Graphics\Rect.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+    <None Include="..\..\menuRtype\Includes\SFML\System\Thread.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+    <None Include="..\..\menuRtype\Includes\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+    <None Include="..\..\menuRtype\Includes\SFML\System\Utf.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+    <None Include="..\..\menuRtype\Includes\SFML\System\Vector2.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+    <None Include="..\..\menuRtype\Includes\SFML\System\Vector3.inl">
+      <Filter>Header Files\SFMLmenu</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/PlayerShip/CMakeFiles/playership.dir
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/PlayerShip/CMakeFiles/ALL_BUILD.dir
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/Moskito/CMakeFiles/moskito.dir
+C:/Users/Christopher/Documents/Visual Studio 2013/Projects/TFS/R-Type/Plugin/Build/CMakeFiles/ZERO_CHECK.dir
